@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/j3J4nFD/EN-logo-final.png" alt="EN-logo-final" border="0">
+<img src="https://i.ibb.co/j3J4nFD/EN-logo-final.png" alt="EN-logo-final" border="0" height"15" width="15">
 
 Neste novo projeto, foi desenvolvido em HTML e CSS uma intranet com as principais atividades dos setores que são passados aos profissionais locais da clinica. Onde são disponibilizados diversas resoluções de problemas existentes e como soluciona-los.
 
