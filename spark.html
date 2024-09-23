@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="favicon.ico">
+    <link rel="stylesheet" href="paginas.css">
+    <script src="https://kit.fontawesome.com/65608040c5.js" crossorigin="anonymous"></script>
+    <script>
+        function goBack() {
+          window.history.back()
+        }
+    </script>
+    <title>Problema no Spark</title>
+</head>
+
+<body>
+    <header>
+        <nav class="barra-nav">
+                <a href="index.html">
+                    <div class="icone-inicial">
+                        <img src="https://i.ibb.co/z2mpvZf/Logo-Navbar.png" alt="icone">
+                        <!-- <h1>Clinicas Erasmo Neto</h1> -->
+                    </div>
+                    <div class="itens-nav">
+                        <a href="index.html"></a>
+                    </div>
+                </a>
+
+                <div class="menu">
+
+                    <button class="backpage" onclick="history.back()"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+
+                    <input type="checkbox" id="toggle" checked />
+                    <label class="button" for="toggle">
+                        <nav class="nav">
+                            <ul>
+                              <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                              <li><a href="setorTI.html"><i class="fa-solid fa-computer"></i></i></a></li>
+                              <li><a href="setorAdm.html"><i class="fa-solid fa-handshake"></i></a></li>
+                              <li><a href="setorContasMedicas.html"><i class="fa-solid fa-money-check-dollar"></i></a></li>
+                            </ul>
+                          </nav>
+                </div>
+        </nav>
+    </header>
+
+    <section class="corpopost">
+
+        <div class="postagem">
+
+            <div class="corpo">
+                    <div class="TituloDoPost">
+                    <h1>
+                    Como corrigir erro no Spark
+                    </h1>
+                    </div>
+                    <p>
+                    1°- Verifique seu Login e senha, se não for esse o problema, veja se o domínio está como 192.168.52.252 (com os pontos entre os números).
+                    </p>
+
+                    <img src="https://i.ibb.co/pKk81r8/Spark.png" alt="imgerrospark">
+
+
+                    <p>
+                    2°- Clique em “avançado”.
+                    </p>
+
+                    <p>
+                    3°- Depois, clique em “Security” e marque a opção “Disable certificate hostname verification”.
+                    </p>
+
+                    <img src="https://i.ibb.co/PN9PNCD/Spark2.png" alt="imgerrospark">
+
+
+                    <p>4°- Depois de marcar, vai na parte de “Certificates” e habilite as opções:
+                    <li>“Accept self-signed”</li> 
+                    <li>“Accept expired”</li>
+                    <li>“Accept not valid yet”</li> 
+                    <li>“Accept revoked”</li>
+                    </p>
+
+                    <img src="https://i.ibb.co/T8q39RR/Spark3.png" alt="imgerrospark">
+
+
+                    <p>5°- Clique em “Ok” e tente fazer Login novamente.
+                    </p>
+                    <br>
+                    <a href="http://192.168.52.246/glpi/front/ticket.form.php" target="_blank"><h2>Caso não consiga, clique aqui para pedir ajuda ao T.I</h2></a>
+                    
+            </div>
+            </div>
+    </section>
+    
+    <footer class="rodape">
+
+        <section class="footer-style">
+
+            <div class="itens-footer">
+                <a href="https://www.clinicaserasmoneto.com.br/">© 2024 - Clinicas Erasmo Neto</a>
+            </div>
+
+            <div class="icone-footer">
+                <img src="https://i.ibb.co/j3J4nFD/EN-logo-final.png" alt="icone">
+                <img src="https://i.ibb.co/4KkXcf6/NACEN-LOGO-final-01.png" alt="icone">
+            </div>
+
+        </section>
+
+    </footer>
+
+</body>
+</html>
