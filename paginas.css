@@ -246,7 +246,7 @@ body {
 }
 
 .postagem p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: block;
     justify-content: center;
 }
@@ -259,13 +259,18 @@ body {
     display: flex;
 }
 
+.corpo li{
+  padding: 3px auto auto 30px;
+  margin: 3px auto auto 30px;
+}
+
 .corpo a{
     text-align: center;
 }
 
 .postagem img{
-    max-width: 400px;
-    max-height: 300px;   
+    max-width: 450px;
+    max-height: 330px;   
     margin: 0 auto;
 }
 
