@@ -252,6 +252,8 @@ body {
 }
 
 .corpo{
+  max-width: 1100px;
+  max-height: auto ;
   padding: 10px;
 }
 
@@ -262,6 +264,10 @@ body {
 .corpo li{
   padding: 3px auto auto 30px;
   margin: 3px auto auto 30px;
+}
+
+.corpo ::marker{
+  margin: 0px 5px 0px 0px;
 }
 
 .corpo a{
