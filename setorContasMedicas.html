@@ -15,35 +15,27 @@
 </head>
 
 <body>
-    <header>
-        <nav class="barra-nav">
-                <a href="index.html">
-                    <div class="icone-inicial">
-                        <img src="https://i.ibb.co/z2mpvZf/Logo-Navbar.png" alt="icone">
-                        <!-- <h1>Clinicas Erasmo Neto</h1> -->
-                    </div>
-                    <div class="itens-nav">
-                        <a href="index.html"></a>
-                    </div>
-                </a>
-
-                <div class="menu">
-
-                    <button class="backpage" onclick="history.back()"><i class="fa-solid fa-arrow-rotate-left"></i></button>
-
-                    <input type="checkbox" id="toggle" checked />
-                    <label class="button" for="toggle">
-                        <nav class="nav">
-                            <ul>
-                              <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
-                              <li><a href="setorTI.html"><i class="fa-solid fa-computer"></i></i></a></li>
-                              <li><a href="setorAdm.html"><i class="fa-solid fa-handshake"></i></a></li>
-                              <li><a href="setorContasMedicas.html"><i class="fa-solid fa-money-check-dollar"></i></a></li>
-                            </ul>
-                          </nav>
-                </div>
+    <div class="menu-container">
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <a href="index.html" class="logo" id="logo">
+            <img src="https://i.ibb.co/z2mpvZf/Logo-Navbar.png" alt="Logo" />
+        </a>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Início</a></li>
+                <li><a href="setorAdm.html">
+                    <i class="fa-solid fa-handshake"></i> Adm</a></li>
+                <li><a href="setorContasMedicas.html">
+                    <i class="fa-solid fa-money-check-dollar"></i> Cont. M.</a></li>
+                <li><a href="setorTI.html">
+                    <i class="fa-solid fa-computer"></i> T.I</a></li>
+            </ul>
         </nav>
-    </header>
+    </div>
 
     <div class="paginaemconstrucao">
         <img src="https://i.ibb.co/ZNLzSCt/emconstrucao.png" alt="">
@@ -62,13 +54,9 @@
                     <img src="https://i.ibb.co/j3J4nFD/EN-logo-final.png" alt="icone">
                     <img src="https://i.ibb.co/4KkXcf6/NACEN-LOGO-final-01.png" alt="icone">
                 </div>
-
-        
-
-        
     </section>
     
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
