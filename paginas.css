@@ -25,6 +25,7 @@ body {
   width: 100%;
   height: 75px;
   padding: 20px;
+  z-index: 3;
 }
 
 .hamburger {
@@ -39,7 +40,8 @@ body {
 .line {
   height: 4px;
   width: 100%;
-  background-color: #333;
+  background: rgb(197,255,197);
+  background: linear-gradient(90deg, rgba(197,255,197,1) 0%, rgba(111,188,255,1) 100%);
   transition: all 0.3s ease;
 }
 
@@ -54,8 +56,8 @@ body {
   top: 60px;
   left: 0;
   width: 200px;
-  border: 1px solid #ddd;
-  
+  border: 3px solid rgb(197,255,197);
+  border-radius: 10px;
 }
 
 .nav ul {
@@ -68,7 +70,8 @@ body {
 
 .nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: rgba(111,188,255,1);
+  font-size: 1.4em;
 }
 
 .nav.show {
